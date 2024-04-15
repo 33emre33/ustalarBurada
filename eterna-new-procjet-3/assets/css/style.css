@@ -1,0 +1,132 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.red-project-color {
+  color: #2ea3f1;
+}
+
+.scale-2 {
+  transform: scale(2);
+}
+
+.red-project-bgbcolor {
+  background-color: #2ea3f1;
+}
+
+.fs-7 {
+  font-size: 0.7rem;
+}
+
+.fs-6-5 {
+  font-size: 0.9rem;
+}
+
+.btn-hover {
+  transition: all 0.5s;
+}
+.btn-hover:hover {
+  opacity: 0.5;
+}
+
+.nav-link-hover {
+  border-bottom: 2px solid rgba(221, 49, 66, 0) !important;
+}
+.nav-link-hover:hover {
+  border-bottom: 2px solid #2ea3f1 !important;
+}
+
+.welcome-company-card-wrapper {
+  background-color: rgba(255, 255, 255, 0.719);
+  box-sizing: 10px 10px 5px black;
+}
+
+.icon-wrapper {
+  /*  min-height: 100%;
+     width: 100%;
+    border-radius: 50%;
+    background-color: #f37d89;
+    position: relative;
+    .content-icon{
+     position: relative;
+     z-index: 5;
+    }
+    &::after{
+     content: "";
+     width: 90%;
+     height: 90%;
+     background-color: white;
+     position: absolute;
+     border-radius: 50%;
+     z-index: 0;
+
+  }
+
+
+     animation: icon-ani 1s infinite ease;
+     @keyframes icon-ani {
+         1%{
+             background-color: #f37d89;
+         }
+         50%{
+             background-color:#DD3142;
+         }
+         100%{
+             background-color: #f37d89;
+
+
+     }
+
+
+     }
+    */
+}
+
+.footer-start-icons-wrapper {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(50%) saturate(5988%) hue-rotate(341deg) brightness(93%) contrast(85%);
+}
+
+form input {
+  border: none;
+  border-radius: 30px;
+  border: 1px solid darkgray;
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+}
+form input:focus {
+  outline: none;
+}
+form input[type=submit] {
+  transition: all 0.3s;
+}
+form input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .banner-start-item-btn-wrapper {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+}
+
+.banner-btn-text {
+  color: red;
+  animation: banner-text 1s infinite ease;
+}
+@keyframes banner-text {
+  1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */
