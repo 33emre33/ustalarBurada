@@ -3,11 +3,15 @@
 *{
     font-family:"Roboto",sans-serif;
 }
+
 .red-project-color{
-    color: #2ea3f1;
+    color: #2ea3f1 !important;
 }
 .scale-2{
     transform: scale(2);
+}
+.neon-green-bg{
+    background-color: #43ff32;
 }
 .red-project-bgbcolor{
     background-color: #2ea3f1;
@@ -80,7 +84,7 @@
 }
 
 
-.footer-start-icons-wrapper{
+.blue-icon-filter{
 
     filter: brightness(0) saturate(100%) invert(51%) sepia(87%) saturate(1861%) hue-rotate(179deg) brightness(101%) contrast(89%);
 
@@ -92,7 +96,7 @@ form{
         border-radius:30px;
         border: 1px solid darkgray;
         background-color:rgba(240, 248, 255, 0);
-        color: white;
+      
         &:focus{
             outline: none;
 
@@ -102,7 +106,7 @@ form{
         transition: all 0.3s;
         &:hover{
             background-color: white;
-            color: black;
+            color: rgb(80, 80, 80);
         }
     }
 }
@@ -110,7 +114,7 @@ form{
 .banner-start-item-btn-wrapper{
     @media (max-width:768px) {
         position: fixed;
-        bottom: 4%;
+        bottom: 5dvh;
         left:50%;
         transform: translateX(-50%);
         z-index: 100;
@@ -133,3 +137,10 @@ form{
         }
     }
 }
+
+.banner-ico{
+    width: 61px;
+    height: 66px;
+    object-fit: contain;
+}
+
